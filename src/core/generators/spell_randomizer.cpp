@@ -1,4 +1,17 @@
-import random
+#include<iostream>
+#include<random>
+#include<vector>
+
+
+
+
+
+
+
+
+
+
+/*import random
 import sys
 
 spell_amount = int(sys.argv[1])
@@ -30,3 +43,4 @@ if __name__ == "__main__":
         main()
     else:
         print("Usage: python3 spell_randomizer.py <spell_amount> <spells_file>")
+*/

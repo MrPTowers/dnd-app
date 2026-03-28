@@ -1,4 +1,19 @@
-import random
+#include<iostream>
+#include<random>
+
+int generateDC() {
+
+	return 0;
+}
+
+
+
+
+
+
+
+
+/*import random
 from datetime import datetime
 
 print("DND Difficulty Class Generator\n\n")
@@ -44,3 +59,6 @@ while programRun == True:
         programRun = False
     else:
         continue
+
+
+*/
