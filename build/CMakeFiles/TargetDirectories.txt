@@ -1,0 +1,3 @@
+/home/pablot/Proyects/dnd-app/build/CMakeFiles/DND-App.dir
+/home/pablot/Proyects/dnd-app/build/CMakeFiles/edit_cache.dir
+/home/pablot/Proyects/dnd-app/build/CMakeFiles/rebuild_cache.dir
