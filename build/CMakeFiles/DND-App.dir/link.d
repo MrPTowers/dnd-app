@@ -4,6 +4,7 @@ DND-App: \
   /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o \
   CMakeFiles/DND-App.dir/src/main.cpp.o \
   CMakeFiles/DND-App.dir/src/ui/application.cpp.o \
+  CMakeFiles/DND-App.dir/src/core/randomizers.cpp.o \
   CMakeFiles/DND-App.dir/external/imgui/imgui.cpp.o \
   CMakeFiles/DND-App.dir/external/imgui/imgui_demo.cpp.o \
   CMakeFiles/DND-App.dir/external/imgui/imgui_draw.cpp.o \
@@ -56,6 +57,8 @@ DND-App: \
 CMakeFiles/DND-App.dir/src/main.cpp.o:
 
 CMakeFiles/DND-App.dir/src/ui/application.cpp.o:
+
+CMakeFiles/DND-App.dir/src/core/randomizers.cpp.o:
 
 CMakeFiles/DND-App.dir/external/imgui/imgui.cpp.o:
 

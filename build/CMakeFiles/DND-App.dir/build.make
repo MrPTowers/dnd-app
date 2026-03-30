@@ -100,10 +100,24 @@ CMakeFiles/DND-App.dir/src/ui/application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DND-App.dir/src/ui/application.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablot/Proyects/dnd-app/src/ui/application.cpp -o CMakeFiles/DND-App.dir/src/ui/application.cpp.s
 
+CMakeFiles/DND-App.dir/src/core/randomizers.cpp.o: CMakeFiles/DND-App.dir/flags.make
+CMakeFiles/DND-App.dir/src/core/randomizers.cpp.o: /home/pablot/Proyects/dnd-app/src/core/randomizers.cpp
+CMakeFiles/DND-App.dir/src/core/randomizers.cpp.o: CMakeFiles/DND-App.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pablot/Proyects/dnd-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DND-App.dir/src/core/randomizers.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DND-App.dir/src/core/randomizers.cpp.o -MF CMakeFiles/DND-App.dir/src/core/randomizers.cpp.o.d -o CMakeFiles/DND-App.dir/src/core/randomizers.cpp.o -c /home/pablot/Proyects/dnd-app/src/core/randomizers.cpp
+
+CMakeFiles/DND-App.dir/src/core/randomizers.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DND-App.dir/src/core/randomizers.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablot/Proyects/dnd-app/src/core/randomizers.cpp > CMakeFiles/DND-App.dir/src/core/randomizers.cpp.i
+
+CMakeFiles/DND-App.dir/src/core/randomizers.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DND-App.dir/src/core/randomizers.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablot/Proyects/dnd-app/src/core/randomizers.cpp -o CMakeFiles/DND-App.dir/src/core/randomizers.cpp.s
+
 CMakeFiles/DND-App.dir/external/imgui/imgui.cpp.o: CMakeFiles/DND-App.dir/flags.make
 CMakeFiles/DND-App.dir/external/imgui/imgui.cpp.o: /home/pablot/Proyects/dnd-app/external/imgui/imgui.cpp
 CMakeFiles/DND-App.dir/external/imgui/imgui.cpp.o: CMakeFiles/DND-App.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pablot/Proyects/dnd-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DND-App.dir/external/imgui/imgui.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pablot/Proyects/dnd-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DND-App.dir/external/imgui/imgui.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DND-App.dir/external/imgui/imgui.cpp.o -MF CMakeFiles/DND-App.dir/external/imgui/imgui.cpp.o.d -o CMakeFiles/DND-App.dir/external/imgui/imgui.cpp.o -c /home/pablot/Proyects/dnd-app/external/imgui/imgui.cpp
 
 CMakeFiles/DND-App.dir/external/imgui/imgui.cpp.i: cmake_force
@@ -117,7 +131,7 @@ CMakeFiles/DND-App.dir/external/imgui/imgui.cpp.s: cmake_force
 CMakeFiles/DND-App.dir/external/imgui/imgui_demo.cpp.o: CMakeFiles/DND-App.dir/flags.make
 CMakeFiles/DND-App.dir/external/imgui/imgui_demo.cpp.o: /home/pablot/Proyects/dnd-app/external/imgui/imgui_demo.cpp
 CMakeFiles/DND-App.dir/external/imgui/imgui_demo.cpp.o: CMakeFiles/DND-App.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pablot/Proyects/dnd-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DND-App.dir/external/imgui/imgui_demo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pablot/Proyects/dnd-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DND-App.dir/external/imgui/imgui_demo.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DND-App.dir/external/imgui/imgui_demo.cpp.o -MF CMakeFiles/DND-App.dir/external/imgui/imgui_demo.cpp.o.d -o CMakeFiles/DND-App.dir/external/imgui/imgui_demo.cpp.o -c /home/pablot/Proyects/dnd-app/external/imgui/imgui_demo.cpp
 
 CMakeFiles/DND-App.dir/external/imgui/imgui_demo.cpp.i: cmake_force
@@ -131,7 +145,7 @@ CMakeFiles/DND-App.dir/external/imgui/imgui_demo.cpp.s: cmake_force
 CMakeFiles/DND-App.dir/external/imgui/imgui_draw.cpp.o: CMakeFiles/DND-App.dir/flags.make
 CMakeFiles/DND-App.dir/external/imgui/imgui_draw.cpp.o: /home/pablot/Proyects/dnd-app/external/imgui/imgui_draw.cpp
 CMakeFiles/DND-App.dir/external/imgui/imgui_draw.cpp.o: CMakeFiles/DND-App.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pablot/Proyects/dnd-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DND-App.dir/external/imgui/imgui_draw.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pablot/Proyects/dnd-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DND-App.dir/external/imgui/imgui_draw.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DND-App.dir/external/imgui/imgui_draw.cpp.o -MF CMakeFiles/DND-App.dir/external/imgui/imgui_draw.cpp.o.d -o CMakeFiles/DND-App.dir/external/imgui/imgui_draw.cpp.o -c /home/pablot/Proyects/dnd-app/external/imgui/imgui_draw.cpp
 
 CMakeFiles/DND-App.dir/external/imgui/imgui_draw.cpp.i: cmake_force
@@ -145,7 +159,7 @@ CMakeFiles/DND-App.dir/external/imgui/imgui_draw.cpp.s: cmake_force
 CMakeFiles/DND-App.dir/external/imgui/imgui_tables.cpp.o: CMakeFiles/DND-App.dir/flags.make
 CMakeFiles/DND-App.dir/external/imgui/imgui_tables.cpp.o: /home/pablot/Proyects/dnd-app/external/imgui/imgui_tables.cpp
 CMakeFiles/DND-App.dir/external/imgui/imgui_tables.cpp.o: CMakeFiles/DND-App.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pablot/Proyects/dnd-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DND-App.dir/external/imgui/imgui_tables.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pablot/Proyects/dnd-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/DND-App.dir/external/imgui/imgui_tables.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DND-App.dir/external/imgui/imgui_tables.cpp.o -MF CMakeFiles/DND-App.dir/external/imgui/imgui_tables.cpp.o.d -o CMakeFiles/DND-App.dir/external/imgui/imgui_tables.cpp.o -c /home/pablot/Proyects/dnd-app/external/imgui/imgui_tables.cpp
 
 CMakeFiles/DND-App.dir/external/imgui/imgui_tables.cpp.i: cmake_force
@@ -159,7 +173,7 @@ CMakeFiles/DND-App.dir/external/imgui/imgui_tables.cpp.s: cmake_force
 CMakeFiles/DND-App.dir/external/imgui/imgui_widgets.cpp.o: CMakeFiles/DND-App.dir/flags.make
 CMakeFiles/DND-App.dir/external/imgui/imgui_widgets.cpp.o: /home/pablot/Proyects/dnd-app/external/imgui/imgui_widgets.cpp
 CMakeFiles/DND-App.dir/external/imgui/imgui_widgets.cpp.o: CMakeFiles/DND-App.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pablot/Proyects/dnd-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/DND-App.dir/external/imgui/imgui_widgets.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pablot/Proyects/dnd-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/DND-App.dir/external/imgui/imgui_widgets.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DND-App.dir/external/imgui/imgui_widgets.cpp.o -MF CMakeFiles/DND-App.dir/external/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/DND-App.dir/external/imgui/imgui_widgets.cpp.o -c /home/pablot/Proyects/dnd-app/external/imgui/imgui_widgets.cpp
 
 CMakeFiles/DND-App.dir/external/imgui/imgui_widgets.cpp.i: cmake_force
@@ -173,7 +187,7 @@ CMakeFiles/DND-App.dir/external/imgui/imgui_widgets.cpp.s: cmake_force
 CMakeFiles/DND-App.dir/external/imgui/backends/imgui_impl_glfw.cpp.o: CMakeFiles/DND-App.dir/flags.make
 CMakeFiles/DND-App.dir/external/imgui/backends/imgui_impl_glfw.cpp.o: /home/pablot/Proyects/dnd-app/external/imgui/backends/imgui_impl_glfw.cpp
 CMakeFiles/DND-App.dir/external/imgui/backends/imgui_impl_glfw.cpp.o: CMakeFiles/DND-App.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pablot/Proyects/dnd-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/DND-App.dir/external/imgui/backends/imgui_impl_glfw.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pablot/Proyects/dnd-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/DND-App.dir/external/imgui/backends/imgui_impl_glfw.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DND-App.dir/external/imgui/backends/imgui_impl_glfw.cpp.o -MF CMakeFiles/DND-App.dir/external/imgui/backends/imgui_impl_glfw.cpp.o.d -o CMakeFiles/DND-App.dir/external/imgui/backends/imgui_impl_glfw.cpp.o -c /home/pablot/Proyects/dnd-app/external/imgui/backends/imgui_impl_glfw.cpp
 
 CMakeFiles/DND-App.dir/external/imgui/backends/imgui_impl_glfw.cpp.i: cmake_force
@@ -187,7 +201,7 @@ CMakeFiles/DND-App.dir/external/imgui/backends/imgui_impl_glfw.cpp.s: cmake_forc
 CMakeFiles/DND-App.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o: CMakeFiles/DND-App.dir/flags.make
 CMakeFiles/DND-App.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o: /home/pablot/Proyects/dnd-app/external/imgui/backends/imgui_impl_opengl3.cpp
 CMakeFiles/DND-App.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o: CMakeFiles/DND-App.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pablot/Proyects/dnd-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/DND-App.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/pablot/Proyects/dnd-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/DND-App.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DND-App.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o -MF CMakeFiles/DND-App.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/DND-App.dir/external/imgui/backends/imgui_impl_opengl3.cpp.o -c /home/pablot/Proyects/dnd-app/external/imgui/backends/imgui_impl_opengl3.cpp
 
 CMakeFiles/DND-App.dir/external/imgui/backends/imgui_impl_opengl3.cpp.i: cmake_force
@@ -202,6 +216,7 @@ CMakeFiles/DND-App.dir/external/imgui/backends/imgui_impl_opengl3.cpp.s: cmake_f
 DND__App_OBJECTS = \
 "CMakeFiles/DND-App.dir/src/main.cpp.o" \
 "CMakeFiles/DND-App.dir/src/ui/application.cpp.o" \
+"CMakeFiles/DND-App.dir/src/core/randomizers.cpp.o" \
 "CMakeFiles/DND-App.dir/external/imgui/imgui.cpp.o" \
 "CMakeFiles/DND-App.dir/external/imgui/imgui_demo.cpp.o" \
 "CMakeFiles/DND-App.dir/external/imgui/imgui_draw.cpp.o" \
@@ -215,6 +230,7 @@ DND__App_EXTERNAL_OBJECTS =
 
 DND-App: CMakeFiles/DND-App.dir/src/main.cpp.o
 DND-App: CMakeFiles/DND-App.dir/src/ui/application.cpp.o
+DND-App: CMakeFiles/DND-App.dir/src/core/randomizers.cpp.o
 DND-App: CMakeFiles/DND-App.dir/external/imgui/imgui.cpp.o
 DND-App: CMakeFiles/DND-App.dir/external/imgui/imgui_demo.cpp.o
 DND-App: CMakeFiles/DND-App.dir/external/imgui/imgui_draw.cpp.o
@@ -227,7 +243,7 @@ DND-App: CMakeFiles/DND-App.dir/compiler_depend.ts
 DND-App: /usr/lib/x86_64-linux-gnu/libglfw.so.3.4
 DND-App: /usr/lib/x86_64-linux-gnu/libGL.so
 DND-App: CMakeFiles/DND-App.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/pablot/Proyects/dnd-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable DND-App"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/pablot/Proyects/dnd-app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable DND-App"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DND-App.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

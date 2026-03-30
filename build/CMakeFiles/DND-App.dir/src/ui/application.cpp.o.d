@@ -2,6 +2,7 @@ CMakeFiles/DND-App.dir/src/ui/application.cpp.o: \
  /home/pablot/Proyects/dnd-app/src/ui/application.cpp \
  /usr/include/stdc-predef.h \
  /home/pablot/Proyects/dnd-app/src/ui/application.h \
+ /home/pablot/Proyects/dnd-app/src/core/randomizers.h \
  /home/pablot/Proyects/dnd-app/external/imgui/imgui.h \
  /home/pablot/Proyects/dnd-app/external/imgui/imconfig.h \
  /usr/lib/gcc/x86_64-linux-gnu/15/include/float.h \

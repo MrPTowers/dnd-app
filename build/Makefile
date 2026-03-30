@@ -297,6 +297,30 @@ external/imgui/imgui_widgets.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DND-App.dir/build.make CMakeFiles/DND-App.dir/external/imgui/imgui_widgets.cpp.s
 .PHONY : external/imgui/imgui_widgets.cpp.s
 
+src/core/randomizers.o: src/core/randomizers.cpp.o
+.PHONY : src/core/randomizers.o
+
+# target to build an object file
+src/core/randomizers.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DND-App.dir/build.make CMakeFiles/DND-App.dir/src/core/randomizers.cpp.o
+.PHONY : src/core/randomizers.cpp.o
+
+src/core/randomizers.i: src/core/randomizers.cpp.i
+.PHONY : src/core/randomizers.i
+
+# target to preprocess a source file
+src/core/randomizers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DND-App.dir/build.make CMakeFiles/DND-App.dir/src/core/randomizers.cpp.i
+.PHONY : src/core/randomizers.cpp.i
+
+src/core/randomizers.s: src/core/randomizers.cpp.s
+.PHONY : src/core/randomizers.s
+
+# target to generate assembly for a file
+src/core/randomizers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DND-App.dir/build.make CMakeFiles/DND-App.dir/src/core/randomizers.cpp.s
+.PHONY : src/core/randomizers.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -375,6 +399,9 @@ help:
 	@echo "... external/imgui/imgui_widgets.o"
 	@echo "... external/imgui/imgui_widgets.i"
 	@echo "... external/imgui/imgui_widgets.s"
+	@echo "... src/core/randomizers.o"
+	@echo "... src/core/randomizers.i"
+	@echo "... src/core/randomizers.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

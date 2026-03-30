@@ -29,12 +29,14 @@ set(IMGUI_SOURCES
 add_executable(${PROJECT_NAME} 
     src/main.cpp
     src/ui/application.cpp
+    src/core/randomizers.cpp
     ${IMGUI_SOURCES}
 )
 # 3.1. Include paths
 target_include_directories(${PROJECT_NAME} PRIVATE 
     ${CMAKE_CURRENT_SOURCE_DIR}/src
     ${CMAKE_CURRENT_SOURCE_DIR}/src/ui
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/core
     ${IMGUI_DIR}
     ${IMGUI_DIR}/backends
 )

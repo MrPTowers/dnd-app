@@ -5,16 +5,19 @@
 
 int randomizeAbilityScores(int low, int high) {
     
-
+    std::cout << "Ability Scores: " << std::endl;
 	return 0;
 }
 
-int randomizeDC(int ) {
+int randomizeDC(int level) {
 
+    std::cout << "DC: " << std::endl;
 	return 0;
 }
 
-int randomizePreparedSpells(int amount, ) {
+int randomizePreparedSpells(int amount) {
+
+    std::cout << "Prepared Spells:" << std::endl;
 
     return 0;
 } 

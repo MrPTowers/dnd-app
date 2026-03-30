@@ -14,6 +14,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/DND-App.dir/external/imgui/imgui_tables.cpp.o.d"
   "CMakeFiles/DND-App.dir/external/imgui/imgui_widgets.cpp.o"
   "CMakeFiles/DND-App.dir/external/imgui/imgui_widgets.cpp.o.d"
+  "CMakeFiles/DND-App.dir/src/core/randomizers.cpp.o"
+  "CMakeFiles/DND-App.dir/src/core/randomizers.cpp.o.d"
   "CMakeFiles/DND-App.dir/src/main.cpp.o"
   "CMakeFiles/DND-App.dir/src/main.cpp.o.d"
   "CMakeFiles/DND-App.dir/src/ui/application.cpp.o"

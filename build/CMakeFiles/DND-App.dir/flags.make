@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/pablot/Proyects/dnd-app/src -I/home/pablot/Proyects/dnd-app/src/ui -I/home/pablot/Proyects/dnd-app/external/imgui -I/home/pablot/Proyects/dnd-app/external/imgui/backends
+CXX_INCLUDES = -I/home/pablot/Proyects/dnd-app/src -I/home/pablot/Proyects/dnd-app/src/ui -I/home/pablot/Proyects/dnd-app/src/core -I/home/pablot/Proyects/dnd-app/external/imgui -I/home/pablot/Proyects/dnd-app/external/imgui/backends
 
 CXX_FLAGS = -std=c++17 -Wall -Wextra -Wpedantic
 
